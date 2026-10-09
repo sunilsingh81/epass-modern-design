@@ -1,4 +1,6 @@
+
 [build]
+  base = "epass-modern-react-v16"
   command = "npm run build"
   publish = "dist"
 
@@ -9,3 +11,4 @@
   from = "/*"
   to = "/index.html"
   status = 200
+  
